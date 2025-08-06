@@ -1,0 +1,35 @@
+.principal {
+    grid-area: principal;
+    background-color: aqua;
+}
+
+.aside-img {
+    grid-area: aside-img;
+}
+
+.aside-video-1 {
+    grid-area: aside-video-1;
+}
+
+.aside-video-2 {
+    grid-area: aside-video-2;
+}
+
+.aside-video-3 {
+    grid-area: aside-video-3;
+}
+
+.aside-info-1 {
+    grid-area: aside-info-1;
+    background-color: orange;
+}
+
+.aside-info-2 {
+    grid-area: aside-info-2;
+    background-color: blue;
+}
+
+.aside-info-3 {
+    grid-area: aside-info-3;
+    background-color: greenyellow;
+}

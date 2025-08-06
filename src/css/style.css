@@ -1,0 +1,72 @@
+.container {
+    background-color: red;
+    display: grid;
+    grid-template-areas:
+        "principal aside-img aside-img"
+        "principal aside-video-1 aside-info-1"
+        "principal aside-video-2 aside-info-2"
+        "principal aside-video-3 aside-info-3";
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-auto-rows: auto;
+    gap: 20px;
+    padding: 35px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* .principal {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+} */
+
+.large-video {
+    width: 100%;
+}
+
+.principal-info {
+    display: grid;
+    margin-top: 10px;
+    gap: 8px;
+}
+
+.principal-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.principal-views {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.principal-description {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.aside-img {
+    width: 100%;
+}
+
+.aside-info-1,
+.aside-info-2,
+.aside-info-3 {
+    display: grid;
+    gap: 4px;
+}
+
+.aside-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.aside-views {
+    font-weight: 300;
+    font-size: 11px;
+}
